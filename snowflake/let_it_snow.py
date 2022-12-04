@@ -22,7 +22,7 @@ def main(speed=0, bg_color="grey"):
         pos = [np.random.randint(-300, 300), np.random.randint(-300, 300)]
 
         """TODO: set snowflake color here (one of the colors defined above)"""
-        myTurtle.pencolor(color_pool[np.random.randint(len(color_pool)])
+        myTurtle.pencolor(color_pool[np.random.randint(len(color_pool))])
 
         # Go to the start position of the snowflake
         myTurtle.penup()
